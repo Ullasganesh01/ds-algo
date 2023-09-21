@@ -1,5 +1,9 @@
 package basic_java_prog;
 
+//package basic_java_prog;
+
+import java.util.Scanner;
+
 public class ReverseDigits {
     public static long reverse(int x){
         long result=0;
@@ -11,7 +15,10 @@ public class ReverseDigits {
         return x<0 ? -result : result; 
        }
     public static void main(String[] args) {
-       long res = reverse(1132);
-       System.out.println(res); 
+       Scanner s = new Scanner(System.in);
+        int res = s.nextInt();
+       long result = reverse(res);
+       System.out.println(result);
+       s.close(); 
     }
 }

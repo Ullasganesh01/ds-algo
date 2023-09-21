@@ -1,5 +1,7 @@
 package basic_java_prog;
 
+//package basic_java_prog;
+
 public class NegPosArrangeArray {
     public static void main(String[] args) {
         int a[] = {7 ,-6 ,4 ,5, -6, 7, 3, 5, -3};

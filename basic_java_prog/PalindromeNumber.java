@@ -1,5 +1,7 @@
 package basic_java_prog;
 
+//package basic_java_prog;
+
 public class PalindromeNumber {
     public static boolean isPalindrome(int x){
         if (x<0){

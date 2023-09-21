@@ -1,5 +1,7 @@
 package basic_java_prog;
 
+
+
 public class EvenOddClassArray {
     public static void main(String[] args) {
         int arr[] = {2,5,3,4,7,6,10,9,1,8};

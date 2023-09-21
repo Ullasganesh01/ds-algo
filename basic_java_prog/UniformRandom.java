@@ -1,4 +1,5 @@
 package basic_java_prog;
+//package basic_java_prog;
 
 public class UniformRandom {
     public static int random(int lb,int ub){
